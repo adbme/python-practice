@@ -25,3 +25,7 @@ On importe globalement tkinter (*) et il peut y avoir peut etre des conflits de 
 ``` PYTHON
 menu1 = Menu(fenetre)
 ```
+A la place d'un add cascade qui ajoute un sous menu on fait la méthode add command qui quand on clique sur l'option "app 1" lance une fonction :
+``` PYTHON
+menu1.add_command(label="app 1", command=hello)
+```
