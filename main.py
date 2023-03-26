@@ -1,1 +1,0 @@
-print("yoooo zmaaar c un test 6")
