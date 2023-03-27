@@ -3,6 +3,14 @@ from tkinter.scrolledtext import ScrolledText
 
 root = tk.Tk()
 
+
+
+# logo icon
+path_to_icon = "images/logo.ico"
+root.iconbitmap(path_to_icon)
+
+
+
 # style
 root.title("Java 319")
 root.geometry("1000x800")
